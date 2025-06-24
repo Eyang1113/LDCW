@@ -56,13 +56,58 @@ int main() {
     cin >> answer;
     if (toupper(answer) == 'C') score++;
 
+    // Question 6
+    cout << "\n6. What is two-factor authentication (2FA)?\n";
+    cout << "A. Using two passwords\n";
+    cout << "B. A security process requiring two separate forms of identification\n";
+    cout << "C. Logging in from two devices at once\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    if (toupper(answer) == 'B') score++;
+
+    // Question 7
+    cout << "\n7. Which of the following is a sign of a secure website?\n";
+    cout << "A. The website loads quickly\n";
+    cout << "B. The URL starts with 'http://'\n";
+    cout << "C. The URL starts with 'https://' and displays a padlock icon\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    if (toupper(answer) == 'C') score++;
+
+    // Question 8
+    cout << "\n8. What is a common way that ransomware spreads?\n";
+    cout << "A. Through social media likes\n";
+    cout << "B. Via email attachments or malicious links\n";
+    cout << "C. By browsing secure websites\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    if (toupper(answer) == 'B') score++;
+
+    // Question 9
+    cout << "\n9. What should you do if you suspect a computer is infected with malware?\n";
+    cout << "A. Ignore it and hope it goes away\n";
+    cout << "B. Keep using the device as normal\n";
+    cout << "C. Disconnect from the internet and run antivirus software\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    if (toupper(answer) == 'C') score++;
+
+    // Question 10
+    cout << "\n10. What is the purpose of software updates?\n";
+    cout << "A. To add advertisements\n";
+    cout << "B. To slow down your device\n";
+    cout << "C. To fix bugs and patch security vulnerabilities\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    if (toupper(answer) == 'C') score++;
+
     // Final feedback
     cout << "\n=============================\n";
-    cout << "Quiz Completed. Your score: " << score << "/5\n";
+    cout << "Quiz Completed. Your score: " << score << "/10\n";
 
-    if (score == 5)
-        cout << "Excellent! You have strong cybersecurity knowledge.\n";
-    else if (score >= 3)
+    if (score == 10)
+    cout << "Excellent! You have strong cybersecurity knowledge.\n";
+    else if (score >= 7)
         cout << "Good effort! Keep learning to stay safe online.\n";
     else
         cout << "Consider reviewing cybersecurity best practices to improve.\n";
